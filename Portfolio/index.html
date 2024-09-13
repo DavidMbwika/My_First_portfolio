@@ -4,8 +4,108 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>David Mbwika -Personal Portfolio</title>
-    <link href="Style.css" rel="stylesheet">
+    
 </head>
+<style>
+    /* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #666;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+section {
+    background-color: #fff;
+    padding: 2em;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article h3 {
+    font-size: 16px;
+    margin-top: 0;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+    section {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul {
+        flex-direction: column;
+    }
+    nav li {
+        margin-right: 0;
+    }
+    nav a {
+        font-size: 16px;
+    }
+}
+</style>
 <body>
     <header style="background-color: black; ">
         <h1 style="color: aliceblue;">David Mbwika</h1>
@@ -16,7 +116,7 @@
             <li class="nav">Introduction</li>
             <li class="nav"><a href="#Introduction">Projects</a></li>
             <li class="nav"><a href="#projects">About Me</a></li>
-            <li class="nav"><a href="#About Me">Contact</a></li>
+            <li class="nav"><a href="#AboutMe">Contact</a></li>
         </ul>
     </nav>
     <section id="Introduction">
@@ -46,7 +146,7 @@
         </p>
         </article>
     </section>
-    <section id="About Me">
+    <section id="AboutMe">
         <h2>About Me</h2>
         <p> I am well endowed programer with wide experience in the It</p>
     </section>
