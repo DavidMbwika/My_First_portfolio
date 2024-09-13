@@ -1,166 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>David Mbwika Personal Portfolio</title>
-    </head>
-<style>
-    /* Global Styles */
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f9f9f9;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 1em;
-    text-align: center;
-}
-
-header h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-}
-
-nav li {
-    margin-right: 20px;
-}
-
-nav a {
-    color: #333;
-    text-decoration: none;
-}
-
-nav a:hover {
-    color: #666;
-}
-
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2em;
-}
-
-section {
-    background-color: #fff;
-    padding: 2em;
-    margin-bottom: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-h2 {
-    font-size: 18px;
-    margin-top: 0;
-}
-
-article {
-    margin-bottom: 20px;
-}
-
-article h3 {
-    font-size: 16px;
-    margin-top: 0;
-}
-
-/* Responsive Design */
-
-@media (max-width: 768px) {
-    main {
-        flex-direction: column;
-    }
-    section {
-        margin-bottom: 10px;
-    }
-}
-
-@media (max-width: 480px) {
-    nav ul {
-        flex-direction: column;
-    }
-    nav li {
-        margin-right: 0;
-    }
-    nav a {
-        font-size: 16px;
-    }
-}
-</style>
+<head>
+    <meta charset="utf-8">
+    <title>John Doe - Personal Portfolio</title>
+</head>
 <body>
-    <!--header-->
-    <header style="background-color: black; ">
-
-        <h1 style="color: aliceblue;">David Mbwika</h1>
-        <p>the most profficient web designer alive</p>
-        <nav>
-            <ul>
-                <li class="nav">Introduction</li>
-                <li class="nav"><a href="#Introduction">Projects</a></li>
-                <li class="nav"><a href="#projects">About Me</a></li>
-                <li class="nav"><a href="#AboutMe">Contact</a></li>
-            </ul>
-        </nav>
+    <header>
+        <h1>John Doe</h1>
+        <p>Professional Software Developer</p>
     </header>
-    <main>
-    <section id="Introduction">
+    <nav>
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="introduction">
         <h2>Introduction</h2>
-        <p>hello, I am Mbwika a 19 year old programer who "makes bussinesses richer than they are."<br>
-          I deal with web development, mobile app development and server management this are crussial for putting your first button on the internet to get paid.<br>
-        call me we make your bussiness more profitable</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
     </section>
-    <section id="Projects">
-        <article>
-            <h3>saudi oil tracker</h3>
-            <p>"This was a job well done," commented the ceo of revo oils from saudi <br>
-            Being one of our first Uae clients the project foucused on keeping buyers updated on their oil shipments location, arrival time and depature time. <br>
-            The project helped curb delays and also helps the maritime authorities to protect the clients property from pirates<br>
-            This project won the 2025 webdesign competition and digital survailance tickets for 2025 tech awards neveda
-            <br>
-            <a href="/html_basic/tweets.html">Revo oil project</a> 
-        </p>      
+    <section id="projects">
+        <h2>Projects</h2>
+        <article class="project">
+            <h3>Project 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+            <a href="https://www.project1.com" target="_blank">Visit Project 1</a>
         </article>
-        <article>
-            <h3>saudi oil tracker</h3>
-            <p>"This was a job well done," commented the ceo of revo oils from saudi <br>
-            Being one of our first Uae clients the project foucused on keeping buyers updated on their oil shipments location, arrival time and depature time. <br>
-            The project helped curb delays and also helps the maritime authorities to protect the clients property from pirates<br>
-            This project won the 2025 webdesign competition and digital survailance tickets for 2025 tech awards neveda
-            <a href="/html_basic/tweets.html">Revo oil project</a>
-        </p>
+        <article class="project">
+            <h3>Project 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+            <a href="https://www.project2.com" target="_blank">Visit Project 2</a>
         </article>
     </section>
-    <section id="AboutMe">
+    <section id="about">
         <h2>About Me</h2>
-        <p> I am well endowed programer with wide experience in the It</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+        <ul>
+            <li>Background: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li>Skills: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li>Hobbies: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+        </ul>
     </section>
-    <section id="Contact">
-        <h2>contacts</h2>
-        <p><a href="mailto:recipient@example.com">Send email</a></p>
-        <p>0790999276</p>
-        <p>twiter @mbwikabanks</p> 
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Get in touch with me:</p>
+        <a href="mailto:john.doe@example.com">john.doe@example.com</a>
+        <a href="https://www.linkedin.com/in/johndoe" target="_blank">LinkedIn</a>
+        <a href="https://www.github.com/johndoe" target="_blank">GitHub</a>
     </section>
-</main>
     <footer>
-        <p>copy right 2024 king of code</p>
+        <p>&copy; 2024 John Doe</p>
     </footer>
 </body>
 </html>
