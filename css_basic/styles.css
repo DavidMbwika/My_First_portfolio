@@ -11,9 +11,19 @@ main {
 article {
     flex: 2;
     overflow-y: auto;
+    background-color: blanchedalmond;
 }
 
 aside {
     flex: 1;
     overflow-y: auto;
+}
+
+nav {
+    display: inline;
+}
+
+.logo {
+    font-size: 70px;
+    font-weight: 300px;
 }
